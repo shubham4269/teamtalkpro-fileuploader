@@ -1,0 +1,88 @@
+.card {
+  width: 350px;
+  margin: 36px auto;
+  background: #fff;
+  border-radius: 12px;
+  box-shadow: 0 2px 8px #e4e4e4;
+  padding: 28px 20px;
+  font-family: system-ui, sans-serif;
+}
+
+.heading {
+  font-size: 1.18rem;
+  font-weight: 600;
+  margin-bottom: 18px;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.input {
+  width: 100%;
+  margin-bottom: 6px;
+  font-size: 1rem;
+}
+
+.button {
+  width: 100%;
+  background: #2175f6;
+  color: #fff;
+  border: none;
+  border-radius: 7px;
+  padding: 11px 0;
+  font-size: 1.05rem;
+  font-weight: 500;
+  margin-bottom: 12px;
+  cursor: pointer;
+  margin-top: 4px;
+  transition: background 0.18s;
+}
+.button:hover { background: #1459be; }
+
+.error {
+  color: #df2323;
+  font-size: 1.02rem;
+  margin: 4px 0 8px 0;
+  text-align: left;
+}
+
+.progressBarWrapper {
+  height: 10px;
+  width: 100%;
+  background: #f2f2f2;
+  border-radius: 6px;
+  margin: 12px 0 4px 0;
+  overflow: hidden;
+}
+.progressBar {
+  height: 100%;
+  background: #46b360;
+  border-radius: 6px;
+  transition: width 0.35s;
+}
+
+.successGroup {
+  margin-top: 10px;
+  text-align: left;
+}
+.success {
+  color: #1fa33b;
+  font-weight: 500;
+  margin-bottom: 7px;
+  font-size: 1.07rem;
+  display: flex;
+  align-items: center;
+  gap: 7px;
+}
+.check {
+  font-size: 1.22em;
+  color: #1fa33b;
+}
+
+.link {
+  color: #1a58d9;
+  text-decoration: underline;
+  font-size: 1rem;
+  margin-top: 2px;
+  display: inline-block;
+}
